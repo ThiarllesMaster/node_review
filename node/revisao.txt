@@ -1,0 +1,11 @@
+Cada módulo é um arquivo
+Para que possamos importar um arquivo: const x = require('./importado') Importado é o nome do Módulo sem JS 
+Ver o exemplo do arquivo importador.js 
+Para que eu possa tornar meu módulo disponivel eu uso module.exports = {} exemplo importado.js
+####################################
+COMANDADOS NPM                    #
+###################################
+npm init (Habilita um Wizard para o meu projeto)
+npm init -y 
+npm i (nome do pacote) isso fara com que seja importado um node_module ()
+Depois bastara associar a uma variável const l = require('lodash') e usar os metodos
